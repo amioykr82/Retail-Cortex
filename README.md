@@ -1,4 +1,4 @@
-# Retail OS Dashboard
+# Retail Insights
 
 A comprehensive, scalable retail operations dashboard built with Next.js, TypeScript, and Tailwind CSS. This enterprise-level application provides multiple business modules for retail management including dashboard analytics, market intelligence, planning & PLM, demand & pricing, inventory & allocation, and digital buying.
 
