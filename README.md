@@ -1,36 +1,167 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Retail OS Dashboard
+
+A comprehensive, scalable retail operations dashboard built with Next.js, TypeScript, and Tailwind CSS. This enterprise-level application provides multiple business modules for retail management including dashboard analytics, market intelligence, planning & PLM, demand & pricing, inventory & allocation, and digital buying.
+
+## Features
+
+### 🎯 Core Modules
+- **Dashboard**: Overview of key retail metrics and KPIs
+- **Market Intelligence**: Competitive analysis and market insights  
+- **Planning & PLM**: Product lifecycle management and planning
+- **Demand & Pricing**: Demand forecasting and pricing optimization
+- **Inventory & Allocation**: Inventory management and allocation optimization
+- **Digital Buying**: Supplier management and procurement analytics
+
+### 🛠 Technical Stack
+- **Framework**: Next.js 15 with App Router
+- **Language**: TypeScript
+- **Styling**: Tailwind CSS v4
+- **Charts**: Recharts for data visualization
+- **Icons**: Lucide React
+- **Utilities**: clsx for conditional styling
+
+### 📱 Features
+- Responsive design for desktop and mobile
+- Interactive charts and data visualizations
+- Modular component architecture
+- Mock data services for development
+- Enterprise-ready UI components
 
 ## Getting Started
 
-First, run the development server:
+### Prerequisites
+- Node.js 18+ 
+- npm, yarn, pnpm, or bun
+
+### Installation
+
+1. **Install dependencies**:
+   ```bash
+   npm install
+   ```
+
+2. **Start the development server**:
+   ```bash
+   npm run dev
+   ```
+
+3. **Open your browser**:
+   Navigate to [http://localhost:3000](http://localhost:3000)
+
+### Build for Production
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+npm run build
+npm start
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Project Structure
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```
+src/
+├── app/                    # Next.js App Router
+│   ├── globals.css        # Global styles
+│   ├── layout.tsx         # Root layout
+│   └── page.tsx           # Main application page
+├── components/            # React components
+│   ├── ui/                # Reusable UI components
+│   │   ├── Card.tsx       # Card component
+│   │   ├── Button.tsx     # Button component
+│   │   └── index.ts       # Component exports
+│   ├── pages/             # Module pages
+│   │   ├── DashboardPage.tsx
+│   │   ├── MarketIntelligencePage.tsx
+│   │   ├── PlanningPLMPage.tsx
+│   │   ├── DemandPricingPage.tsx
+│   │   ├── InventoryAllocationPage.tsx
+│   │   └── DigitalBuyingPage.tsx
+│   └── Sidebar.tsx        # Navigation sidebar
+└── data/
+    └── mockData.ts        # Mock data for development
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Module Details
 
-## Learn More
+### Dashboard
+- Revenue trends and KPI cards
+- Sales performance charts
+- Market segment analysis
+- Inventory overview by category
 
-To learn more about Next.js, take a look at the following resources:
+### Market Intelligence
+- Competitive landscape analysis
+- Market trend tracking
+- Segment performance metrics
+- Position monitoring
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### Planning & PLM
+- Product lifecycle distribution
+- Seasonal planning overview
+- Development timeline tracking
+- Budget vs actual analysis
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+### Demand & Pricing
+- Demand forecasting with confidence intervals
+- Price elasticity analysis
+- Pricing optimization recommendations
+- Revenue opportunity identification
 
-## Deploy on Vercel
+### Inventory & Allocation
+- Stock levels by location
+- Category performance tracking
+- Allocation vs received analysis
+- Turnover rate monitoring
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### Digital Buying
+- Supplier performance metrics
+- Order volume and value trends
+- Quality and delivery tracking
+- Procurement spend analysis
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Development
+
+### Available Scripts
+
+- `npm run dev` - Start development server with Turbopack
+- `npm run build` - Build for production
+- `npm run start` - Start production server
+- `npm run lint` - Run ESLint
+
+### Key Technologies
+
+- **Next.js 15**: Latest version with App Router and Turbopack support
+- **Tailwind CSS v4**: Latest version with improved PostCSS integration
+- **TypeScript**: Full type safety throughout the application
+- **Recharts**: Comprehensive charting library for data visualization
+- **Lucide React**: Beautiful, customizable icons
+
+### Design System
+
+The application uses a custom design system built on Tailwind CSS with:
+- Consistent color palette (blue primary, gray neutrals)
+- Responsive grid layouts
+- Standardized spacing and typography
+- Accessible UI components
+
+## Browser Support
+
+- Chrome (latest)
+- Firefox (latest)
+- Safari (latest)
+- Edge (latest)
+
+## Contributing
+
+1. Fork the repository
+2. Create a feature branch
+3. Make your changes
+4. Add tests if applicable
+5. Submit a pull request
+
+## License
+
+This project is private and proprietary.
+
+## Support
+
+For support or questions, please contact the development team.
