@@ -7,7 +7,7 @@ A comprehensive, scalable retail operations dashboard built with Next.js, TypeSc
 ## 🚀 Live Demo
 - **Local Development**: `http://localhost:3000`
 - **Production**: Ready for custom domain deployment
-- **Repository**: [Retail-Insights](https://github.com/amioykr82/Retail-Insights-)
+- **Repository**: [Retail-Insights]([https://github.com/amioykr82/Retail-Cortex])
 - **Domain Setup**: See [DOMAIN_SETUP.md](./DOMAIN_SETUP.md) for custom domain configuration
 
 ## ✨ Features
