@@ -1,52 +1,76 @@
-# Retail OS Dashboard
+# 🏪 Retail-Insight
 
-A comprehensive, scalable retail operations dashboard built with Next.js, TypeScript, and Tailwind CSS. This enterprise-level application provides multiple business modules for retail management including dashboard analytics, market intelligence, planning & PLM, demand & pricing, inventory & allocation, and digital buying.
+**Enterprise-grade retail operations platform with AI-driven analytics and insights**
 
-## Features
+A comprehensive, scalable retail operations dashboard built with Next.js, TypeScript, and Tailwind CSS. This enterprise-level application provides advanced analytics, AI-driven insights, and strategic decision-making tools across all aspects of retail operations.
+
+## 🚀 Live Demo
+- **Local Development**: `http://localhost:3000`
+- **Repository**: [Retail-Insights](https://github.com/amioykr82/Retail-Insights-)
+
+## ✨ Features
 
 ### 🎯 Core Modules
-- **Dashboard**: Overview of key retail metrics and KPIs
-- **Market Intelligence**: Competitive analysis and market insights  
-- **Planning & PLM**: Product lifecycle management and planning
-- **Demand & Pricing**: Demand forecasting and pricing optimization
-- **Inventory & Allocation**: Inventory management and allocation optimization
-- **Digital Buying**: Supplier management and procurement analytics
+- **📊 Dashboard**: Real-time KPIs and performance metrics with Walmart data integration
+- **🏢 Market Intelligence**: Competitive analysis, SWOT analysis, and market positioning  
+- **📋 Planning & PLM**: Product lifecycle management and strategic planning
+- **💰 Demand & Pricing**: AI-driven demand forecasting and intelligent pricing optimization
+- **📦 Inventory & Allocation**: Advanced inventory management and allocation optimization
+- **🛒 Digital Buying**: Comprehensive supplier management and procurement analytics
 
 ### 🛠 Technical Stack
-- **Framework**: Next.js 15 with App Router
-- **Language**: TypeScript
+- **Framework**: Next.js 15.3.5 with Turbopack
+- **Language**: TypeScript 5
 - **Styling**: Tailwind CSS v4
 - **Charts**: Recharts for data visualization
 - **Icons**: Lucide React
+- **Runtime**: React 19
 - **Utilities**: clsx for conditional styling
 
-### 📱 Features
-- Responsive design for desktop and mobile
-- Interactive charts and data visualizations
-- Modular component architecture
-- Mock data services for development
-- Enterprise-ready UI components
+### 📱 Enterprise Features
+- ✅ Responsive design for desktop and mobile
+- ✅ Interactive charts and real-time data visualizations
+- ✅ Modular component architecture
+- ✅ Real Walmart data integration (100,000+ suppliers, $412B procurement)
+- ✅ Enterprise-ready UI components
+- ✅ 6-phase implementation methodology
+- ✅ Comprehensive documentation
 
-## Getting Started
+## 🚀 Quick Start
 
 ### Prerequisites
-- Node.js 18+ 
-- npm, yarn, pnpm, or bun
+- **Node.js**: 18+ (recommended: 20+)
+- **Package Manager**: npm, yarn, pnpm, or bun
 
-### Installation
+### Installation & Setup
 
-1. **Install dependencies**:
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/amioykr82/Retail-Insights-.git
+   cd Retail-Insights-
+   ```
+
+2. **Install dependencies**:
    ```bash
    npm install
    ```
 
-2. **Start the development server**:
+3. **Start the development server**:
    ```bash
    npm run dev
    ```
 
-3. **Open your browser**:
+4. **Open your browser**:
    Navigate to [http://localhost:3000](http://localhost:3000)
+
+### 🎯 Available Scripts
+
+```bash
+npm run dev      # Start development server with Turbopack
+npm run build    # Build for production
+npm run start    # Start production server
+npm run lint     # Run ESLint
+```
 
 ### Build for Production
 
