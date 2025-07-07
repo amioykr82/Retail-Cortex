@@ -1,8 +1,8 @@
 # Data Sources & Acknowledgments
 
-## Retail Cortex Project Data Attribution
+## Retail-Insights Project Data Attribution
 
-This document provides comprehensive acknowledgment of all data sources used in the Retail Cortex project. We believe in transparency and proper attribution for all information used in this enterprise retail analytics platform.
+This document provides comprehensive acknowledgment of all data sources used in the Retail-Insights project. We believe in transparency and proper attribution for all information used in this enterprise retail analytics platform.
 
 ---
 
@@ -225,7 +225,7 @@ While every effort has been made to ensure data accuracy, this project is for de
 
 ### **Project Repository**
 - **GitHub**: https://github.com/amioykr82/Retail-Insights
-- **Project**: Retail Cortex Enterprise Analytics Platform
+- **Project**: Retail-Insights Enterprise Analytics Platform
 - **Last Updated**: July 7, 2025
 
 ### **Attribution Requirements**
@@ -250,60 +250,8 @@ Special thanks to all organizations and institutions that provide transparent, p
 
 ---
 
-*This document serves as comprehensive attribution for all data sources used in the Retail Cortex project. For questions about data sources or attribution, please contact the project maintainers.*
+*This document serves as comprehensive attribution for all data sources used in the Retail-Insights project. For questions about data sources or attribution, please contact the project maintainers.*
 
 **Document Version**: 1.0  
 **Last Updated**: July 7, 2025  
-**Project**: Retail Cortex Enterprise Analytics Platform
-- **Total Stores**: 10,500+ globally
-- **US Stores**: 4,616
-- **International Stores**: 5,900+
-- **Distribution Centers**: 210+ (US)
-- **Employees**: 2.1 million globally
-
-### E-commerce Performance
-- **E-commerce Growth**: +23% (US)
-- **Global E-commerce**: +21%
-- **Marketplace Growth**: +32%
-- **Advertising Revenue**: $3.4 billion
-
-### Profitability
-- **Gross Margin**: 24.9%
-- **Operating Margin**: 4.1%
-- **Net Income**: $15.5 billion
-- **ROE**: 23.2%
-
-## Competitive Landscape
-
-### US Retail Market Share (2024)
-1. **Walmart**: 20.2% ($611.3B)
-2. **Amazon**: 19.0% ($574.8B)
-3. **Costco**: 8.3% ($249.6B)
-4. **Target**: 3.6% ($109.1B)
-5. **Home Depot**: 5.2% ($157.4B)
-
-## Category Performance
-
-### Walmart US Segment Mix
-- **Grocery**: 56% of sales
-- **General Merchandise**: 32% of sales
-- **Fuel**: 7% of sales
-- **Other**: 5% of sales
-
-## Data Validation
-- All financial data cross-referenced with SEC filings
-- Operational metrics verified through investor presentations
-- Growth rates calculated from official quarterly reports
-- Competitive data sourced from industry research reports
-
-## Update Frequency
-- **Financial Data**: Quarterly (with annual reports)
-- **Operational Metrics**: Monthly (where available)
-- **Competitive Data**: Quarterly
-- **Market Trends**: Real-time monitoring
-
-## Data Quality Assurance
-- Primary source verification required
-- Cross-validation with multiple sources
-- Historical consistency checks
-- Automated data validation rules
+**Project**: Retail-Insights Enterprise Analytics Platform

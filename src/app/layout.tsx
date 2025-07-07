@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Retail-Insight",
+  title: "Retail Cortex",
   description: "Enterprise-grade retail operations platform with AI-driven analytics and insights",
 };
 

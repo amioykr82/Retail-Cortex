@@ -50,7 +50,7 @@ export default function Sidebar({ activeModule, onModuleChange }: SidebarProps) 
         ${isMobileMenuOpen ? 'translate-x-0' : '-translate-x-full'}
       `}>
         <div className="flex items-center justify-center h-16 bg-gray-800">
-          <h1 className="text-xl font-bold">Retail-Insight</h1>
+          <h1 className="text-xl font-bold">Retail Cortex</h1>
         </div>
         
         <nav className="mt-8">
